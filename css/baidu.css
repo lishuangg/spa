@@ -1,0 +1,122 @@
+body,ul,ol{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style:none
+}
+a{
+    text-decoration:none;
+    color:#00c
+}
+a:hover{
+    color:#00c
+}
+body{
+    background:url(https://passport.baidu.com/static/passpc-account/img/reg_bg_min.jpg?qq-pf-to=pcqq.c2c) no-repeat;
+    background-size:cover;
+}
+.left{
+    width:50%;
+    float: left;
+}
+.left-logo>img{
+    width:25%;
+    padding:8% 10%;
+}
+.left-text{
+    padding-left:30%;
+    padding-top:15%;
+    color:#fff;
+    line-height:10px;
+}
+.left-text>h3{
+    font-size:55px;
+}
+.left-text>span{
+    font-size:35px;
+}
+.left-footer{
+    position: fixed;;
+    left:5%;
+    bottom:5%;
+    color:#fff;
+    font-size:14px;
+}
+.left-footer>a{
+    color:#fff;
+    padding:10px;
+}
+.left-footer>.copyright{
+    color:#ccc;
+}
+.right{
+    width:450px;
+    padding:3%;
+    margin-top:5%;
+    margin-right:10%;
+    background-color:rgba(255,255,255,0.85);
+    border-radius: 15px;
+    float: right;
+    line-height: 5px;
+}
+.right>h3{
+    font-size: 35px;
+}
+.right>p{
+    font-size:14px;
+    color:#888;
+}
+.right>p>#login_btn{
+    color:blue;
+}
+.login-msg{
+    width:100%;
+    padding:8px 0;
+}
+.login-msg>label{
+    width:15%;
+    color:#666;
+    font-size:16px;
+    line-height: 35px;
+    float: left;
+}
+.login-msg>.login-input{
+    width:80%;
+    line-height:20px;
+    float: left;
+}
+.login-msg>.login-input>input{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+.login-msg>.login-input>span{
+    font-size:10px;
+    color:red;
+}
+.login-msg>.login-input>#user_cap{
+    width:60%;
+}
+.login-msg>.login-input>#get_cap{
+    width:30%;
+    background-color: #fff;
+    font-size: 10px;
+    float:right;
+}
+#submit{
+    width:100%;
+    border-radius:25px;
+    padding:15px;
+    margin-top:25px;
+    font-size:16px;
+    color:#fff;
+    border:none;
+    background-color: rgb(116, 204, 245);
+}
+.login-read{
+    padding:10px;
+    font-size:10px;
+}

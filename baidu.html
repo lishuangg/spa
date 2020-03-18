@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册百度帐号</title>
+    <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon" />
+    <link rel="icon" sizes="any" mask href="https://www.baidu.com/img/baidu.svg">
+    <Link href="css/baidu.min.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="left">
+        <div class="left-logo">
+            <img src="https://passport.baidu.com/static/passpc-account/img/baidu.png">
+        </div>
+        <div class="left-text">
+            <h3>用科技</h3>
+            <span>让复杂的世界更简单</span>
+        </div>
+        <div class="left-footer">
+            <a class="help" href="https://passport.baidu.com/v2/?ucenterfeedback#reg" target="_blank">帮助中心</a>|
+            <a class="service" href="https://zhiqiu.baidu.com/imcswebchat/roulette/in?id=48721&token=1nnbs7op4ocsr68143oamrjq9c4eoin2&domainID=pass&type=2">客服</a>
+            <span class="copyright">2020&nbsp;&copy;Baidu</span>
+        </div>
+    </div>
+    <div class="right">
+        <h3>欢迎注册</h3>
+        <p>已有帐号？<span id="login_btn">登录</span></p>
+        <div class="login-msg">
+            <label for="user_name">用户名</label>
+            <div class="login-input">
+                <input type="text" placeholder="请设置用户名"  id="user_name" name="用户名"/>
+                <span id="user_name_validation"> &nbsp;</span>
+            </div>
+        </div>
+        <br />
+        <div class="login-msg">
+            <label for="user_tel">手机号</label>
+            <div class="login-input">
+                <input type="tel" placeholder="可用于登录和找回密码" id="user_tel" name="手机号" />
+                <span id="user_tel_validation"> &nbsp;</span>
+            </div>
+        </div>
+        <br />
+        <div class="login-msg">
+            <label for="user_pwd">密&nbsp;&nbsp;&nbsp;码</label>
+            <div class="login-input">
+                <input type="password" placeholder="请设置登录密码" id="user_pwd" name="密码" />
+                <span id="user_pwd_validation"> &nbsp;</span>
+            </div>
+        </div>
+        <br />
+        <div class="login-msg">
+            <label for="user_cap">验证码</label>
+            <div class="login-input">
+                <input type="text" placeholder="请输入验证码" id="user_cap" name="验证码"/>
+                <input type="button" value="获取验证码" id="get_cap" />
+                <span id="user_cap_validation"> &nbsp;</span>
+            </div>
+        </div>
+        <input type="button" value="注册" id="submit" />
+        <div class="login-read">
+            <input type="radio" value="" id="radio"/>
+            <span class="read">阅读并接受《百度用户协议》及《百度隐私权保护声明》</span>
+        </div>
+    </div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/baidu.min.js"></script>
+</html>
